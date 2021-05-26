@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using CarShop.Models;
 
 namespace CarShop.Data
 {
@@ -12,5 +13,6 @@ namespace CarShop.Data
             : base(options)
         {
         }
+        public DbSet<CarShop.Models.Car> Car { get; set; }
     }
 }
