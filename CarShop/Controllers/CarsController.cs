@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CarShop.Data;
 using CarShop.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CarShop.Controllers
 {
@@ -53,6 +54,7 @@ namespace CarShop.Controllers
         }
 
         // GET: Cars/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -61,6 +63,7 @@ namespace CarShop.Controllers
         // POST: Cars/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("id,brand,model,price,details")] Car car)
@@ -75,6 +78,7 @@ namespace CarShop.Controllers
         }
 
         // GET: Cars/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -93,6 +97,7 @@ namespace CarShop.Controllers
         // POST: Cars/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,brand,model,price,details")] Car car)
@@ -126,6 +131,7 @@ namespace CarShop.Controllers
         }
 
         // GET: Cars/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -144,6 +150,7 @@ namespace CarShop.Controllers
         }
 
         // POST: Cars/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
