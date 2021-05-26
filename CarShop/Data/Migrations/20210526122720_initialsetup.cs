@@ -1,4 +1,4 @@
-﻿tusing Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CarShop.Data.Migrations
 {
