@@ -183,3 +183,4 @@ C:\Users\Bogdan\source\repos\finalproject\CarShop\obj\Debug\net5.0\Razor\Views\C
 C:\Users\Bogdan\source\repos\finalproject\CarShop\obj\Debug\net5.0\Razor\Views\Cars\Details.cshtml.g.cs
 C:\Users\Bogdan\source\repos\finalproject\CarShop\obj\Debug\net5.0\Razor\Views\Cars\Edit.cshtml.g.cs
 C:\Users\Bogdan\source\repos\finalproject\CarShop\obj\Debug\net5.0\Razor\Views\Cars\Index.cshtml.g.cs
+C:\Users\Bogdan\source\repos\finalproject\CarShop\obj\Debug\net5.0\Razor\Views\Cars\SearchForm.cshtml.g.cs
