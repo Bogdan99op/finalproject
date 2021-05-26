@@ -29,7 +29,11 @@ namespace CarShop.Controllers
         {
             return View("SearchForm");
         }
-
+        //POST: Cars/SearchResults
+        public async Task<IActionResult> SearchResults( String searchterm)
+        {
+            return View("Index",await _context.Car.Where(j=>j.brand.Contains(searchterm)).ToListAsync());
+        }
         // GET: Cars/Details/5
         public async Task<IActionResult> Details(int? id)
         {
