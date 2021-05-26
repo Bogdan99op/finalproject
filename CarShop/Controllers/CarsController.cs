@@ -24,6 +24,11 @@ namespace CarShop.Controllers
         {
             return View(await _context.Car.ToListAsync());
         }
+        //GET: Cars/SearchForm
+        public async Task<IActionResult> SearchForm()
+        {
+            return View("SearchForm");
+        }
 
         // GET: Cars/Details/5
         public async Task<IActionResult> Details(int? id)
