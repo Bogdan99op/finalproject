@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bogdan\\source\\repos\\finalproject\\CarShop\\CarShop.csproj": {}
+    "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bogdan\\source\\repos\\finalproject\\CarShop\\CarShop.csproj": {
+    "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bogdan\\source\\repos\\finalproject\\CarShop\\CarShop.csproj",
+        "projectUniqueName": "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj",
         "projectName": "CarShop",
-        "projectPath": "C:\\Users\\Bogdan\\source\\repos\\finalproject\\CarShop\\CarShop.csproj",
-        "packagesPath": "C:\\Users\\Bogdan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bogdan\\source\\repos\\finalproject\\CarShop\\obj\\",
+        "projectPath": "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj",
+        "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bogdan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

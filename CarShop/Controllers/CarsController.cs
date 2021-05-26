@@ -30,6 +30,11 @@ namespace CarShop.Controllers
         {
             return View("SearchForm");
         }
+        //GET: Cars/About
+        public async Task<IActionResult> About()
+        {
+            return View();
+        }
         //POST: Cars/SearchResults
         public async Task<IActionResult> SearchResults( String searchterm)
         {
