@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj": {}
+    "C:\\Users\\Roberto\\source\\repos\\finalproject\\CarShop\\CarShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj": {
+    "C:\\Users\\Roberto\\source\\repos\\finalproject\\CarShop\\CarShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj",
+        "projectUniqueName": "C:\\Users\\Roberto\\source\\repos\\finalproject\\CarShop\\CarShop.csproj",
         "projectName": "CarShop",
-        "projectPath": "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\CarShop.csproj",
+        "projectPath": "C:\\Users\\Roberto\\source\\repos\\finalproject\\CarShop\\CarShop.csproj",
         "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Roberto\\Source\\Repos\\finalproject\\CarShop\\obj\\",
+        "outputPath": "C:\\Users\\Roberto\\source\\repos\\finalproject\\CarShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
