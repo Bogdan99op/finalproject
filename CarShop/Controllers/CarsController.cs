@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CarShop.Data;
 using CarShop.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace CarShop.Controllers
 {

@@ -14,6 +14,7 @@ namespace CarShop.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     brand = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     model = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    user = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     price = table.Column<int>(type: "int", nullable: false),
                     details = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
